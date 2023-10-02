@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Sidebar from "./sidebar";
+import Container from "./container";
 
 const links = [
   {
@@ -48,9 +49,11 @@ const Navbar = () => {
     //   </div>
     // </div>
     <div className="flex justify-center h-[40px] m-5 items-center">
-      <span className="text-xl sm:text-2xl font-bold tracking-tight text-white">
-        .sitesculpting
-      </span>
+      <Container>
+        <span className="text-xl sm:text-2xl font-bold tracking-tight text-white">
+          .sitesculpting
+        </span>
+      </Container>
     </div>
   );
 };

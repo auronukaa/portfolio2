@@ -2,13 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
-  font-family: "Azeret Mono", monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-html,
+p {
+  font-family: var(--font-azeret-mono);
+}
+
+.bg-grain {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  background-image: url("https://assets.website-files.com/611030f94f960b2e229ea3b0/611164977a273a3cd1de86d7_noise.gif");
+  background-position: 50% 50%;
+  background-size: auto;
+  opacity: 0.02;
+}
+
+.bg-main {
+  -webkit-mask-image: radial-gradient(
+    50% 50% at top center,
+    white,
+    transparent
+  );
+  mask-image: radial-gradient(50% 50% at top center, white, transparent);
+  overflow: visible;
+  stroke: rgba(255, 255, 255, 0.07);
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  inset: 0px;
+  position: absolute;
+  fill: rgb(31 41 55 / 0.2);
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+.bg-fade {
+  background: linear-gradient(transparent, rgb(10, 10, 10));
+}
+
 body {
-  background-color: #000;
+  background-color: #0f0f0f;
 }
 
 @layer base {

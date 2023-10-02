@@ -1,14 +1,15 @@
-import Container from "@/components/container";
+import Benefits from "@/components/benefits";
 import Main from "@/components/main";
-import Navbar from "@/components/navbar";
+import Process from "@/components/process";
 
 const Home = () => {
   return (
     <>
-      <Container>
-        <Navbar />
-        <Main />
-      </Container>
+      <Main />
+      <Benefits />
+      <Process />
+      <div class="h-[100dvh]"></div>
+      <div class="bg-grain"></div>
     </>
   );
 };
