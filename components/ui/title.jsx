@@ -22,7 +22,7 @@ export const FeatureTitle = ({ children, id, document }) => {
     <span
       ref={ref}
       className={cn(
-        "py-16 sm:py-32 font-heading text-2xl text-left sm:text-5xl transition-colors block font-bold tracking-tight px-5",
+        "py-16 sm:py-32 font-heading text-2xl text-left sm:text-3xl lg:text-5xl transition-colors block font-bold tracking-tight px-5",
         isInView ? "text-white" : "text-neutral-500"
       )}
     >

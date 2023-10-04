@@ -2,16 +2,16 @@
 
 import Container from "./container";
 import { useAnimate } from "framer-motion";
-import { Availability, Colors, Todo } from "./ui/card";
+import { Availability, Colors, Todo, ImgCard } from "./ui/card";
 import { OtherVisual } from "./ui/visual";
 import { FeatureTitle } from "./ui/title";
 
 const features = [
   {
-    title: "Strategy Call",
-    id: "strat-call",
+    title: "Discovery Call",
+    id: "discovery-call",
     desc: "20 minute call to get to know your business goals, gather data, & address your pain points.",
-    card: Todo,
+    card: ImgCard,
     visual: OtherVisual,
   },
   {
@@ -24,14 +24,14 @@ const features = [
   {
     title: "Development",
     id: "development",
-    desc: "Web development starts after design has been approved.",
+    desc: "Web development starts after design has been approved and revised to meet your goals.",
     card: Availability,
     visual: OtherVisual,
   },
   {
     title: "Launch & 30 Day Support",
     id: "launch & support",
-    desc: "You get your high converting , aesthetic, trust building landing page (+30 days of free ongoing support!) ",
+    desc: "You get your high converting , aesthetic, trust building landing page ( +30 days of free ongoing support ) ",
     card: Todo,
     visual: OtherVisual,
   },
@@ -44,8 +44,8 @@ const Process = () => {
     <div className="relative pb-40 sm:pb-0">
       <Container>
         <div className="pt-7 sm:pt-20">
-          <p className="text-md lg:text-xl text-[#C5C5C5] tracking-tight w-full text-center leading-tight pb-3">
-            FOUR STEPS
+          <p className="text-md lg:text-xl text-[#C5C5C5] tracking-tight w-full text-center leading-tight pb-2">
+            Our Process
           </p>
           <h1 className="capitalize text-headerMobile sm:text-headerMd2 font-bold text-white tracking-tight w-full text-center leading-tight pb-4">
             How we work
@@ -63,11 +63,11 @@ const Process = () => {
                 {features.map((feature, index) => (
                   <li key={feature.id}>
                     <FeatureTitle id={feature.id}>
-                      <span className="text-2xl sm:text-5xl">
+                      <span className="text-2xl sm:text-3xl lg:text-5xl">
                         {index + 1}.{" "}
                       </span>
                       {feature.title}
-                      <span className="block pt-3 text-base sm:text-xl font-medium text-neutral-400">
+                      <span className="block pt-3 text-base lg:text-xl font-medium">
                         {feature.desc}
                       </span>
                     </FeatureTitle>

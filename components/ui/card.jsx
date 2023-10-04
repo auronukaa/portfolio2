@@ -1,8 +1,10 @@
 import { cn } from "@/lib/utils";
 import { useFeatureStore } from "@/hooks/store";
-import { motion } from "framer-motion";
+import call from "@/app/call.png";
+import development from "@/app/designphase.png";
+import designphase from "@/app/design.webp";
+import launch from "@/app/launch.png";
 import Image from "next/image";
-import call from "@/app/calling.png";
 
 const FeatureCard = ({ gradient, children, id }) => {
   const inViewFeature = useFeatureStore((state) => state.inViewFeature);
@@ -18,7 +20,7 @@ const FeatureCard = ({ gradient, children, id }) => {
     >
       <div
         className={cn(
-          "gradient absolute inset-0 origin-bottom-left rounded-2xl bg-gradient-to-br ",
+          "gradient absolute inset-0 origin-bottom-left rounded-2xl bg-gradient-to-br",
           gradient
         )}
       />
@@ -29,18 +31,22 @@ const FeatureCard = ({ gradient, children, id }) => {
 
 export const Todo = ({ id }) => {
   return (
-    <FeatureCard id={id} gradient="from-yellow-200 to-yellow-300">
-      <div className="relative">
-        <Image src={call} className="absolute left-0 -top-10" />
-      </div>
+    <FeatureCard id={id} gradient="bg-process">
+      <Image
+        className="absolute inset-0 object-cover h-full w-full rounded-2xl"
+        src={launch}
+      />
     </FeatureCard>
   );
 };
 
 export const Colors = ({ id }) => {
   return (
-    <FeatureCard id={id} gradient="from-[#f5fbff] to-[#89cdfa]">
-      <span />
+    <FeatureCard id={id} gradient="from-yellow-300 to-yellow-400">
+      <Image
+        className="absolute inset-0 object-cover h-full w-full rounded-2xl"
+        src={designphase}
+      />
     </FeatureCard>
   );
 };
@@ -48,7 +54,10 @@ export const Colors = ({ id }) => {
 export const Availability = ({ id }) => {
   return (
     <FeatureCard id={id} gradient="from-yellow-200 to-yellow-300">
-      <span />
+      <Image
+        className="absolute inset-0 object-cover h-full w-full rounded-2xl"
+        src={development}
+      />
     </FeatureCard>
   );
 };
@@ -65,6 +74,17 @@ export const Team = ({ id }) => {
   return (
     <FeatureCard id={id} gradient="from-[#fef5ff] to-[#ffade1]">
       <span />
+    </FeatureCard>
+  );
+};
+
+export const ImgCard = ({ id }) => {
+  return (
+    <FeatureCard id={id} gradient="from-yellow-200 to-yellow-300">
+      <Image
+        className="absolute inset-0 object-contain h-full w-full"
+        src={call}
+      />
     </FeatureCard>
   );
 };

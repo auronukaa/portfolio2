@@ -9,13 +9,13 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      header: "55px",
+      header: "60px",
       headerMd: "40px",
       headerMd2: "40px",
-      headerMobile: "29px",
+      headerMobile: "32px",
       header2Mobile: "22px",
-      para: "18px",
-      paraMobile: "14px",
+      para: "22px",
+      paraMobile: "16px",
       sm: "0.8rem",
       base: "1rem",
       xl: "1.25rem",

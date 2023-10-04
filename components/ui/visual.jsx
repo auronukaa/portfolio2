@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils";
+import call from "@/app/call.png";
+import Image from "next/image";
 
 const Visual = ({ children, id }) => {
   return (
@@ -24,7 +26,7 @@ export const MusicVisual = ({ id }) => {
 export const OtherVisual = ({ id }) => {
   return (
     <Visual id={id}>
-      <img src="/window-spotify.webp" />
+      <Image src={call} />
     </Visual>
   );
 };

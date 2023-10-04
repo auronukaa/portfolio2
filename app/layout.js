@@ -1,19 +1,16 @@
 import "./globals.css";
 
-import { Azeret_Mono, DM_Sans } from "next/font/google";
+import { Syne, DM_Sans } from "next/font/google";
 
-const font = DM_Sans(
-  { subsets: ["latin"] },
-  {
-    weight: ["400", "500", "600", "700", "800", "900"],
-  }
-);
-
-const azeretMono = Azeret_Mono({
+const font = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+const azeretMono = Syne({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
-  variable: "--font-azeret-mono",
 });
 
 export const metadata = {
@@ -25,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${font.className} ${azeretMono.variable} antialiased`}>
+      <body className={`${font.className} ${azeretMono} antialiased`}>
         {children}
       </body>
     </html>
