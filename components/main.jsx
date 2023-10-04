@@ -16,7 +16,7 @@ const Main = () => {
         <div className="mx-2 my-12 md:my-24">
           <div className="w-full flex justify-center my-5">
             <span className="text-sm lg:text-base px-5 py-1 font-medium w-fit bg-neutral-800 tracking-tight text-yellow-400 rounded-full">
-              Let's grow together
+              Let&apos;s grow together
             </span>
           </div>
           <div className="flex items-center flex-col gap-y-7">
