@@ -15,14 +15,6 @@ const Visual = ({ children, id }) => {
   );
 };
 
-export const MusicVisual = ({ id }) => {
-  return (
-    <Visual id={id}>
-      <img src="https://www.frontend.fyi/playground-assets/amie/window-spotify.webp" />
-    </Visual>
-  );
-};
-
 export const OtherVisual = ({ id }) => {
   return (
     <Visual id={id}>
