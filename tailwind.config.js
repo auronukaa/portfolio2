@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      header: "60px",
+      header: "65px",
       headerMd: "40px",
       headerMd2: "40px",
       headerMobile: "32px",

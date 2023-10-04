@@ -27,10 +27,6 @@
   top: 0;
 }
 
-p {
-  font-family: var(--font-azeret-mono);
-}
-
 .bg-grain {
   position: fixed;
   left: 0%;

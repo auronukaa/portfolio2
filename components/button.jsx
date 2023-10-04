@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const Button = ({ children, className }) => {
   return (
@@ -8,7 +9,13 @@ const Button = ({ children, className }) => {
         className
       )}
     >
-      {children}
+      <Link
+        href="https://calendly.com/sitesculpting/30min"
+        className="flex items-center"
+        target="_blank"
+      >
+        {children}
+      </Link>
     </button>
   );
 };
