@@ -4,14 +4,12 @@ import Container from "./container";
 
 const Benefits = () => {
   return (
-    <div className="px-2 sm:px-0">
+    <div className="px-2 mt-10 sm:px-0 w-full">
       <Container>
         <div>
-          <p className="text-md lg:text-xl text-[#C5C5C5] tracking-tight w-full text-center leading-tight pb-2">
-            Four Reasons
-          </p>
           <h1 className="capitalize text-header2Mobile sm:text-headerMd2 font-bold text-white tracking-tight w-full text-center leading-tight pb-4">
-            Why you should choose us
+            We will help you <span className="text-yellow-400">solve</span>{" "}
+            every <br /> one of these problems
           </h1>
         </div>
         <div className="w-full sm:w-[80%] flex mx-auto flex-col items-center sm:px-4">

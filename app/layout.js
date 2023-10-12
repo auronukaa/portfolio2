@@ -9,9 +9,9 @@ const font = DM_Sans({
 });
 
 export const metadata = {
-  title: "Home Remodeling Web Design Agency",
+  title: "Home Remodeling Web Design Agency | Site Sculpting",
   description:
-    "We sculpt websites for Home Remodeling Businesses that boost conversion rates, instill trust and drive more sales.",
+    "We are a website design agency for Home Remodeling Businesses. We sculpt websites that boost conversion rates, instill trust and drive more sales.",
 };
 
 export default function RootLayout({ children }) {

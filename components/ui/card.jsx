@@ -34,6 +34,7 @@ export const Todo = ({ id }) => {
     <FeatureCard id={id} gradient="bg-process">
       <Image
         className="absolute inset-0 object-cover h-full w-full rounded-2xl"
+        alt="Launch + 30 days of free support"
         src={launch}
       />
     </FeatureCard>
@@ -46,6 +47,7 @@ export const Colors = ({ id }) => {
       <Image
         className="absolute inset-0 object-cover h-full w-full rounded-2xl"
         src={designphase}
+        alt="Design Process of Websites"
       />
     </FeatureCard>
   );
@@ -57,6 +59,7 @@ export const Availability = ({ id }) => {
       <Image
         className="absolute inset-0 object-cover h-full w-full rounded-2xl"
         src={development}
+        alt="Development process of Websites"
       />
     </FeatureCard>
   );
