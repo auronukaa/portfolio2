@@ -12,7 +12,7 @@ module.exports = {
       header: "65px",
       headerMd: "40px",
       headerMd2: "40px",
-      headerMobile: "34px",
+      headerMobile: "33px",
       header2Mobile: "22px",
       para: "22px",
       paraMobile: "16px",

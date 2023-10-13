@@ -1,7 +1,7 @@
 import Button from "./button";
 import { FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
-import HomeReno from "@/app/BA.jpeg";
+import HomeReno from "@/app/iphone.png";
 import Bg from "@/app/bg.webp";
 import Container from "./container";
 

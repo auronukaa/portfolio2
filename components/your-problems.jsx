@@ -10,29 +10,50 @@ const YourProblems = () => {
       <div className="absolute inset-0 image-background border-y-[1px] border-neutral-700" />
       <Container>
         <div>
-          <h2 className="capitalize text-header2Mobile sm:text-headerMd2 font-bold text-white tracking-tight w-full text-center leading-tight pb-5">
+          <h3 className="capitalize text-[24px] sm:text-5xl font-bold text-white tracking-tight w-full text-center leading-tight pb-5">
             Are you facing any of these
             <br className="inline" />
             <span className="text-yellow-400"> problems</span> ?
-          </h2>
+          </h3>
 
-          <div className="flex flex-col md:flex-row justify-center items-center py-4">
-            <div className="flex items-start flex-col gap-y-2 border border-neutral-800 p-4 w-full">
-              <CgDanger className="text-yellow-400" size={25} />
+          <div className="flex flex-col md:flex-row justify-center pl-4 items-center py-5 sm:py-10">
+            <div className="flex items-start flex-col gap-y-3 p-4 w-full">
+              <div className="flex items-center justify-center gap-x-2">
+                <h2 className="text-black bg-yellow-400 p-3 mr-1 sm:p-4 text-base lg:text-xl h-[5px] w-[5px] flex items-center justify-center rounded-full font-bold">
+                  1
+                </h2>
+                <p className="text-yellow-400 text-base lg:text-xl font-bold">
+                  Page that doesn't convert
+                </p>
+              </div>
               <p className="text-[#c5c5c5] text-base w-full leading-tight">
                 You are leading potential clients to a website or homepage that
                 doesn&apos;t convert.
               </p>
             </div>
-            <div className="flex items-start flex-col gap-y-2 border mx-3 my-4 border-neutral-800 p-4 w-full">
-              <CgDanger className="text-yellow-400" size={25} />
+            <div className="flex items-start flex-col gap-y-3  mx-3 my-4  p-4 w-full">
+              <div className="flex items-start lg:items-center text-center justify-center gap-x-2">
+                <h2 className="text-black bg-yellow-400 p-3 mr-1 sm:p-4 text-base lg:text-xl h-[5px] w-[5px] flex items-center justify-center rounded-full font-bold">
+                  2
+                </h2>
+                <p className="text-yellow-400 text-base lg:text-xl font-bold">
+                  People don't trust you
+                </p>
+              </div>
               <p className="text-[#c5c5c5] text-base w-full leading-tight">
                 You don&apos;t feel like people trust you or your product.
               </p>
             </div>
-            <div className="flex items-start flex-col gap-y-2 border border-neutral-800 p-4 w-full">
-              <CgDanger className="text-yellow-400" size={25} />
-              <p className="text-[#c5c5c5] text-base w-full leading-tight">
+            <div className="flex items-start flex-col gap-y-3 p-4 w-full">
+              <div className="flex items-start lg:items-center justify-center gap-x-2">
+                <h2 className="text-black bg-yellow-400 p-3 mr-1 sm:p-4 text-base lg:text-xl h-[5px] w-[5px] flex items-center justify-center rounded-full font-bold">
+                  3
+                </h2>
+                <p className="text-yellow-400 text-base lg:text-xl font-bold">
+                  Pressure from competition
+                </p>
+              </div>
+              <p className="text-[#c5c5c5] w-full leading-tight">
                 You feel pressure from your competition because of their brand
                 and prospect stealing.
               </p>
