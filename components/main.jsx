@@ -2,17 +2,11 @@ import Button from "./button";
 import { FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
 import HomeReno from "@/app/iphone.png";
-import Bg from "@/app/bg.webp";
 import Container from "./container";
 
 const Main = () => {
   return (
     <div>
-      {/* <Image
-        src={Bg}
-        className="absolute inset-0 object-contain -z-30 w-full"
-      /> */}
-
       <Container>
         <div className="flex justify-center h-[40px] m-5 items-center">
           <span className="text-xl sm:text-2xl font-bold tracking-tight text-white">
@@ -20,11 +14,6 @@ const Main = () => {
           </span>
         </div>
         <div className="mx-2 my-12 md:my-24">
-          {/* <div className="w-full flex justify-center my-5">
-            <span className="text-sm lg:text-base px-5 py-1 font-medium w-fit bg-neutral-800 tracking-tight text-yellow-400 rounded-full">
-              Let&apos;s grow together
-            </span>
-          </div> */}
           <div className="flex items-center flex-col gap-y-5">
             <h1 className="text-headerMobile sm:text-headerMd lg:text-header font-bold text-white tracking-[-0.04em] sm:tracking-tight w-full text-center leading-[1.1]">
               Give Your Home

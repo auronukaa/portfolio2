@@ -1,7 +1,4 @@
-import Image from "next/image";
 import Container from "./container";
-import { CgDanger } from "react-icons/cg";
-import bg from "@/app/bg.webp";
 import Benefits from "./benefits";
 
 const YourProblems = () => {
@@ -23,7 +20,7 @@ const YourProblems = () => {
                   1
                 </h2>
                 <p className="text-yellow-400 text-base lg:text-xl font-bold">
-                  Page that doesn't convert
+                  Page that doesn&apos;t convert
                 </p>
               </div>
               <p className="text-[#c5c5c5] text-base w-full leading-tight">
@@ -37,7 +34,7 @@ const YourProblems = () => {
                   2
                 </h2>
                 <p className="text-yellow-400 text-base lg:text-xl font-bold">
-                  People don't trust you
+                  People don&apos;t trust you
                 </p>
               </div>
               <p className="text-[#c5c5c5] text-base w-full leading-tight">
