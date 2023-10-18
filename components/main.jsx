@@ -15,11 +15,13 @@ const Main = () => {
         </div>
         <div className="mx-2 my-12 md:my-24">
           <div className="flex items-center flex-col gap-y-5">
-            <h1 className="text-headerMobile sm:text-headerMd lg:text-header font-bold text-white tracking-[-0.04em] sm:tracking-tight w-full text-center leading-[1.1]">
-              Give Your Home
+            <h1 className="text-headerMobile sm:text-headerMd lg:text-header font-bold text-white tracking-[-0.04em] px-2 sm:tracking-tight w-full text-center leading-[1.1]">
+              {/* Give Your Home
               <br className="inline sm:hidden" /> Remodeling
               <br className="hidden sm:inline" /> Business A
-              <span className="text-yellow-400"> Hardworking</span> Website
+              <span className="text-yellow-400"> Hardworking</span> Website */}
+              Are You Ready To Experience a Website That{" "}
+              <span className="text-yellow-400">Works As Hard</span> As You Do?
             </h1>
 
             <div className="w-full flex items-center justify-center">

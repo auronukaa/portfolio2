@@ -44,17 +44,17 @@
   background: linear-gradient(transparent, rgb(10, 10, 10));
 }
 
-.image-background {
+.image-backgrounds {
   background-image: url("https://framerusercontent.com/images/SvRMLKadKyWX3VoKePNh7sfkZLg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: -2;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 body {
-  background-color: #0b0d0e;
+  background-color: #0f1011;
 }
 
 @layer base {

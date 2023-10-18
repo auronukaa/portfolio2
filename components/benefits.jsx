@@ -9,8 +9,8 @@ const Benefits = () => {
     <div className="px-2 mt-10 sm:px-0 w-full">
       <div>
         <h1 className="capitalize text-[22px] sm:text-4xl font-semibold text-white tracking-tight w-full text-center leading-tight pb-2">
-          We will help you <span className="text-yellow-400">solve</span> every{" "}
-          <br /> one of these problems
+          We Will<span className="text-yellow-400"> Tackle</span> all these
+          issues head-on
         </h1>
       </div>
       <div className="w-full sm:w-[80%] flex mx-auto flex-col items-center sm:px-4">

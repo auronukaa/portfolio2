@@ -4,7 +4,7 @@ import Benefits from "./benefits";
 const YourProblems = () => {
   return (
     <div className="w-full px-4 sm:px-0 md:my-10 py-10 md:py-20 relative">
-      <div className="absolute inset-0 image-background border-y-[1px] border-neutral-700" />
+      <div className="absolute inset-0 image-backgrounds border-y-[1px] border-neutral-700" />
       <Container>
         <div>
           <h3 className="capitalize text-[24px] sm:text-5xl font-bold text-white tracking-tight w-full text-center leading-tight pb-5">
