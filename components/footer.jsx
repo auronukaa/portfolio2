@@ -9,8 +9,8 @@ const Footer = () => {
           Book A FREE Call
         </h2>
         <p className="text-paraMobile sm:text-para max-w-[600px] text-center leading-5 sm:leading-6 font-normal text-[#0f1011] px-2 mb-8">
-          I offer different packages, so I'll need to learn about your specific
-          situation before we move forward.
+          I offer different packages, so I&apos;ll need to learn about your
+          specific situation before we move forward.
         </p>
         <Button className="flex justify-center tracking-tight items-center w-[90%] sm:w-fit text-paraMobile uppercase font-bold bg-yellow-400 border-2 text-[#0f1011] border-[#0f1011] hover:bg-[#0f1011] hover:text-white">
           book a free call
