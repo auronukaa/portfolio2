@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { useFeatureStore } from "@/hooks/store";
 import call from "@/app/call.png";
 import development from "@/app/designphase.png";
-import designphase from "@/app/design.webp";
+import designphase from "@/app/design.jpg";
 import launch from "@/app/launch.png";
 import Image from "next/image";
 

@@ -41,14 +41,14 @@ const Process = () => {
   const [scope, animate] = useAnimate();
 
   return (
-    <div className="relative pb-40 sm:pb-0">
+    <div className="relative pb-20 sm:pb-0">
       <Container>
         <div className="pt-7 sm:pt-20">
-          <p className="text-md lg:text-xl text-[#C5C5C5] tracking-tight w-full text-center leading-tight pb-2">
-            Our Process
-          </p>
-          <h1 className="capitalize text-headerMobile sm:text-headerMd2 font-bold text-white tracking-tight w-full text-center leading-tight pb-4">
-            How we work
+          <h3 className="text-md lg:text-xl text-[#C5C5C5] tracking-tight w-full text-center leading-tight pb-2">
+            Our Unique Process
+          </h3>
+          <h1 className="capitalize text-[24px] sm:text-5xl font-bold text-white tracking-tight w-full text-center leading-tight pb-5">
+            Your <span className="text-yellow-400">Success</span> Blueprint
           </h1>
         </div>
 
@@ -75,7 +75,7 @@ const Process = () => {
                 ))}
               </ul>
             </div>
-            <div className="fixed bottom-0 left-0 sm:sticky sm:top-0 flex h-screen w-full sm:items-center items-end py-5 pl-14 pr-5">
+            <div className="hidden sm:sticky sm:top-0 sm:flex h-screen w-full sm:items-center items-end py-5 pl-14 pr-5">
               <div className="relative aspect-square w-full rounded-2xl sm:bg-gray-500 [&:has(>_.active-card)]:bg-transparent">
                 {features.map((feature) => (
                   <feature.card id={feature.id} key={feature.id} />

@@ -53,6 +53,14 @@
   opacity: 0.4;
 }
 
+.image-backgrounds2 {
+  background-image: url("./faq.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -3;
+  opacity: 1;
+}
 body {
   background-color: #0f1011;
 }
